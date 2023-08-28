@@ -50,7 +50,8 @@ header {
     max-width: 1040px;
 }
 
-.failure-info .failure-title {
+.failure-info .failure-title, 
+.my-plan-section .my-plan-title{
     font-size: 40px;
     font-weight: 700;
 }
@@ -68,3 +69,33 @@ header {
     color: #16D887;
     margin-right: 10px;
 }
+
+.my-plan-section .my-plan-title{
+    margin-top: 130px;
+    text-align: center;
+}
+
+.my-plan-section .my-plan-info{
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1040px;
+}
+
+.my-plan-info .plan{
+    text-align: center;
+}
+
+.my-plan-info .plan h3{
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.my-plan-info .plan p{
+    color: #737272;
+    font-weight: 600;
+}
+
+
